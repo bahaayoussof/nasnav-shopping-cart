@@ -62,7 +62,7 @@ export default class ProductDetails extends Component {
 							<p className={classes.title}>Color</p>
 							<div className={classes.icon}>
 								{selectedProduct?.colors.map(color => (
-									<img src={`/images/${color}-color.svg`} alt={color} />
+									<img key={color} src={`/images/${color}-color.svg`} alt={color} />
 								))}
 							</div>
 						</div>

@@ -1,7 +1,13 @@
 import React from "react";
 
 import classes from "./main-header.module.scss";
-const MainHeader = () => {
+const MainHeader = props => {
+	const { quantity, toggleCart } = props;
+
+	const showCartHandler = () => {
+		toggleCart(true);
+	};
+
 	return (
 		<nav className={classes.header}>
 			<div className={classes.logo}>
@@ -21,8 +27,11 @@ const MainHeader = () => {
 				<li>
 					<img src="/images/search-icon.svg" alt="search" />
 				</li>
-				<li>
-					<img src="/images/cart-icon.svg" alt="cart" />
+				<li onClick={showCartHandler}>
+					<div className={classes.badge}>
+						{quantity > 0 && <div>{quantity}</div>}
+						<img src="/images/cart-icon.svg" alt="cart-icon" />
+					</div>
 				</li>
 				<li>
 					<img src="/images/user-icon.svg" alt="user" />
