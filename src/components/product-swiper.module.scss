@@ -1,0 +1,7 @@
+@import '../index.scss';
+
+.container {
+  @extend %container;
+  margin: 30px auto;
+  cursor: pointer;
+}
