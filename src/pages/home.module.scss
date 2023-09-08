@@ -1,0 +1,15 @@
+@import '../index.scss';
+
+.home {
+  @extend %container;
+  @extend %flex-center;
+
+  flex-direction: column;
+  height: 100vh;
+  gap: 2rem;
+
+  img {
+    width: 100%;
+    max-width: 30rem;
+  }
+}
