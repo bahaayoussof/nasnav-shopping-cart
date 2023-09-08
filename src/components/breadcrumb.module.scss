@@ -1,0 +1,19 @@
+@import "../index.scss";
+
+.breadcrumb {
+	@extend %container;
+	@include flex(flex-start);
+	height: 82px;
+	background-color: $dark-color;
+	color: $light-color;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 100%;
+	text-transform: capitalize;
+  padding: 0 19rem;
+
+  ul {
+    display: flex;
+    gap: 4px;
+  }
+}
