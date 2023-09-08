@@ -1,0 +1,49 @@
+@import "../index.scss";
+
+.container {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+
+	.swiper {
+		display: flex;
+		flex-direction: column;
+		gap: 1.1rem;
+
+		img {
+			border: 1px solid #cdcdcd;
+			padding: 5px;
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+			border-radius: 7px;
+		}
+	}
+
+	.imageContainer {
+		position: relative;
+
+		.discount {
+			@include flex(center);
+			position: absolute;
+			left: 0;
+			top: 25px;
+			background-color: $primary-color;
+			color: #fff;
+			font-size: 18px;
+			text-transform: capitalize;
+			width: 100px;
+			height: 42px;
+		}
+
+		img {
+			border: 1px solid #cdcdcd;
+			padding: 25px 15px;
+			width: 380px;
+			height: 450px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+	}
+}
