@@ -33,3 +33,7 @@ $base-font: "Poppins", sans-serif;
 ul {
 	list-style: none;
 }
+
+.swiper-pagination-progressbar {
+  visibility: hidden !important;
+}
