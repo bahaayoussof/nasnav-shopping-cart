@@ -1,9 +1,19 @@
 import React, { Component } from "react";
+import MainHeader from "../components/MainHeader";
 
 import classes from "./product.module.scss";
 class Product extends Component {
 	render() {
-		return <div>Product</div>;
+		return (
+			<>
+				<header>
+					<MainHeader />
+				</header>
+				<main>
+					<div>Product</div>
+				</main>
+			</>
+		);
 	}
 }
 
