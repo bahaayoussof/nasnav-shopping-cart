@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { PRODUCTS } from "./../utils/services/ProductsData";
+import { PRODUCTS } from "../utils/services/ProductsData";
 import "swiper/css";
 import "swiper/css/pagination";
 
 import classes from "./product-swiper.module.scss";
-import ProductCard from "./ProductCard";
+import ProductCard from "./product-card";
 import { Navigation, Pagination } from "swiper";
 
 const ProductSwiper = props => {

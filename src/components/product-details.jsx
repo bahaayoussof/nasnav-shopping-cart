@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { PRODUCTS } from "./../utils/services/ProductsData";
-import ProductGallery from "./ProductGallery";
+import { PRODUCTS } from "../utils/services/ProductsData";
+import ProductGallery from "./product-gallery";
 import classes from "./product-details.module.scss";
 
 export default class ProductDetails extends Component {

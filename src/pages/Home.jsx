@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ProgressBar from "../components/Progress";
+import ProgressBar from "../components/progress-bar";
 
 import classes from "./home.module.scss";
 const Home = () => {

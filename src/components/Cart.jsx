@@ -1,5 +1,5 @@
 import React from "react";
-import CartItem from "./CartItem";
+import CartItem from "./cart-item";
 
 import classes from "./cart.module.scss";
 const Cart = props => {

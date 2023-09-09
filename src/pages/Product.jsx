@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import MainHeader from "../components/MainHeader";
+import MainHeader from "../components/main-header";
 import Breadcrumb from "../components/Breadcrumb";
-import ProductDetails from "../components/ProductDetails";
-import Cart from "../components/Cart";
-import ProductSwiper from "../components/ProductSwiper";
+import ProductDetails from "../components/product-details";
+import Cart from "../components/cart";
+import ProductSwiper from "../components/product-swiper";
 
 import classes from "./product.module.scss";
 class Product extends Component {
